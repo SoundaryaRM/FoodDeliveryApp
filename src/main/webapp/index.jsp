@@ -95,6 +95,7 @@
       </span>
       <% } else { %>
       <a href="login.jsp" style="font-weight:600;">LOGIN</a>
+      <a href="register.jsp" style="font-weight:600;background:#e65100;color:#fff;padding:6px 12px;border-radius:20px;">REGISTER</a>
       <% } %>
     </div>
   </nav>
