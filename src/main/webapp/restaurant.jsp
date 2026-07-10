@@ -88,6 +88,7 @@
     <span style="display:flex;align-items:center;gap:6px;background:#333;padding:4px 12px;border-radius:20px;font-size:.8rem;color:#e65100;">
       <i class="fas fa-user-circle"></i> <%= loggedUser.getUsername() %>
     </span>
+    <a href="LogoutServlet" style="font-weight:600;font-size:.8rem;color:#a0a0a0;margin-left:8px;"><i class="fas fa-sign-out-alt"></i> LOGOUT</a>
   </div>
 </nav>
 

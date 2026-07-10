@@ -93,6 +93,7 @@
       <span style="display:flex;align-items:center;gap:6px;background:#333;padding:4px 12px;border-radius:20px;font-size:.8rem;color:#e65100;">
         <i class="fas fa-user-circle"></i> <%= u.getUsername() %>
       </span>
+      <a href="LogoutServlet" style="font-weight:600;font-size:.8rem;color:#a0a0a0;margin-left:8px;"><i class="fas fa-sign-out-alt"></i> LOGOUT</a>
       <% } else { %>
       <a href="login.jsp" style="font-weight:600;background:#e65100;color:#fff;padding:6px 12px;border-radius:20px;">LOGIN</a>
       <a href="register.jsp" style="font-weight:600;background:#e65100;color:#fff;padding:6px 12px;border-radius:20px;">REGISTER</a>
