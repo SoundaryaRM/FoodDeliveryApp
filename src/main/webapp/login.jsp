@@ -26,7 +26,7 @@
     a{text-decoration:none;color:var(--accent);}
     /* ── Split layout ── */
     .split{display:flex;min-height:100vh;}
-    .left{flex:1;background:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1920&q=80') center/cover no-repeat;position:relative;}
+    .left{flex:1;background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAXrhgI-4-T7oAJuzM6G5cJF1woIVcoY5Vm0c7XrOeqwfSc0sPfRX1Rzc&s=10') center/cover no-repeat;position:relative;}
     .left::after{content:'';position:absolute;inset:0;background:rgba(41,38,34,.55);}
     .left .overlay{position:absolute;bottom:2.5rem;left:2.5rem;color:#dfdad5;z-index:1;}
     .left .overlay h1{font-family:'Playfair Display',serif;font-weight:300;font-size:clamp(38px,6vw,58px);line-height:.9;margin-bottom:.6rem;}
